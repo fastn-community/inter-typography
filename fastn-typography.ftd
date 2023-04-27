@@ -1,14 +1,14 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
 -- import: fifthtry.github.io/package-doc/footer
--- import: <user_name>.github.io/<repo_name>
+-- import: fastn-community.github.io/inter-typography
 
 
 
 
 -- ds.page: 
 show-footer: true
-site-name: `<repo_name>`
+site-name: `inter-typography`
 
 -- ds.page.footer:
 
@@ -16,14 +16,14 @@ site-name: `<repo_name>`
 
 -- end: ds.page.footer
 
--- pd.package: <repo_name>
-name: <user_name>.github.io/<repo_name>
+-- pd.package: inter-typography
+name: fastn-community.github.io/inter-typography
 
-Below are our default fastn `inherited` font types of <repo_name>.
+Below are our default fastn `inherited` font types of inter-typography.
 
 
 -- display-type:
-types: $<repo_name>.types
+types: $inter-typography.types
 
 
 -- end: ds.page

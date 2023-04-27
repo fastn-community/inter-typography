@@ -1,19 +1,14 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
 -- import: fifthtry.github.io/package-doc/footer
--- import: fifthtry.github.io/inter-font/assets as inter-assets
+-- import: fastn-community.github.io/inter-font/assets as inter-assets
 
-;; ⚠️fastn-builders::⚠️ before using this file please find and replace inter-font
-;; with font package name you have given inside this package 
-;; `<user_name>.github.io/<repo_name>/FASTN.ftd file
-;; `<font-name>` replace with font you are using. 
-;; remove these comments once you are done.
 
 
 
 -- ds.page: 
 show-footer: true
-site-name: `<repo_name>`
+site-name: `inter-typography`
 
 -- ds.page.footer:
 
@@ -21,17 +16,17 @@ site-name: `<repo_name>`
 
 -- end: ds.page.footer
 
--- pd.package: <repo_name> package
-name: <user_name>.github.io/<repo_name>
+-- pd.package: inter-typography package
+name: fastn-community.github.io/inter-typography
 
-This FTD font `<repo_name>` can be used for your ftd web projects. 
+This FTD font `inter-typography` can be used for your ftd web projects. 
 
-You can use this <repo_name> inside the `FTD` project. Follow below
+You can use this inter-typography inside the `FTD` project. Follow below
 instructions to use this font package.
 
--- ds.h3: How to use <repo_name>?
+-- ds.h3: How to use inter-typography?
 
-To use this <repo_name> inside your `ftd` web project, if you are
+To use this inter-typography inside your `ftd` web project, if you are
 using our [doc-site](https://github.com/fifthtry/doc-site) theme then you just
 have to pass types to `ds.page`
 
@@ -41,68 +36,68 @@ making a sandwich.
 -- ds.code: Add this to your FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: <user_name>.github.io/<repo_name>
+\-- fastn.dependency: fastn-community.github.io/inter-typography
 
 -- ds.markdown:
 
-Now import `<repo_name>` inside `.ftd` file as shown below:
+Now import `inter-typography` inside `.ftd` file as shown below:
 
 -- ds.code:
 lang: ftd
 
-\-- import: <user_name>.github.io/<repo_name>
+\-- import: fastn-community.github.io/inter-typography
 
 
 -- ds.markdown: 
 
-add `<repo_name>` `types` to `ds.page` `types` attribute as shown
+add `inter-typography` `types` to `ds.page` `types` attribute as shown
 below:
 
 -- ds.code:
 lang: ftd
 
 \-- ds.page:
-types: $<repo_name>.types
+types: $inter-typography.types
 
 -- ds.markdown: 
 
-Once you add `types: $<repo_name>.types` inside your `.ftd` file,
-`<repo_name>` will be added as `fastn` default typography to your
+Once you add `types: $inter-typography.types` inside your `.ftd` file,
+`inter-typography` will be added as `fastn` default typography to your
 `ds.page` and to all components you add inside `ds.page`.
 
 If you're not using `doc-site` theme and building your own `fastn` web theme.
-Then, add `<repo_name>` dependency into `FASTN.ftd` file.
+Then, add `inter-typography` dependency into `FASTN.ftd` file.
 
 -- ds.code:
 lang: ftd
 
-\-- fastn.dependency: <user_name>.github.io/<repo_name>
+\-- fastn.dependency: fastn-community.github.io/inter-typography
 
 -- ds.markdown:
 
-Once you add above dependency, then import `<repo_name>` inside your
+Once you add above dependency, then import `inter-typography` inside your
 `.ftd` file:
 
 -- ds.code:
 lang: ftd
 
-\-- import: <user_name>.github.io/<repo_name>
+\-- import: fastn-community.github.io/inter-typography
 
 -- ds.markdown:
 
-Done! `<repo_name>` is now added. Lets define a `page` component:
+Done! `inter-typography` is now added. Lets define a `page` component:
 
 -- ds.code:
 lang: ftd
 download: my-ds.ftd
 
-\-- import: <user_name>.github.io/<repo_name>
+\-- import: fastn-community.github.io/inter-typography
 
 \-- component page:
 caption title:
 body body:
 children wrap:
-ftd.type-data types: $<repo_name>.types
+ftd.type-data types: $inter-typography.types
 
 \-- ftd.column:
 width: fill-container
@@ -141,7 +136,7 @@ In above code snippet we defined `page` component which has `types`, `title`,
 `body` and  `wrap` attributes.
 
 The `types` attribute used to pass a typography to it. In above example we have
-added `$<repo_name>.types` as default `ftd.type-data`. The
+added `$inter-typography.types` as default `ftd.type-data`. The
 `ftd.type-data` contains all `fastn` default `inherited` types.
 
 The `title` attribute will be used for adding `page` titles. 
@@ -212,12 +207,12 @@ downloaded, add previously downloaded `my-ds.ftd` and `types.ftd` inside
 name and run `fastn serve`, load localhost web page on browser.
 
 e.g. `http://127.0.0.1:8001/types` You will see the `page` component using
-`<repo_name>` `types` applied to `inherited` types.
+`inter-typography` `types` applied to `inherited` types.
 
 Done! isn't it simple? Try this and don't forget to jump on our [Discord](https://discord.gg/bucrdvptYd)
 
 [Click here](fastn-typography/) to know more `fastn` predefined `inherited`
-types using `<font-name>-font` font-family and font-sizes.
+types using `inter-font` font-family and font-sizes.
 
 -- end: ds.page
 
