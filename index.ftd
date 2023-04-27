@@ -1,13 +1,8 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/forest-theme as ds
 -- import: fifthtry.github.io/package-doc/footer
--- import: fifthtry.github.io/inter-font/assets as inter-assets
+-- import: fastn-community.github.io/inter-font/assets as inter-assets
 
-;; ⚠️fastn-builders::⚠️ before using this file please find and replace inter-font
-;; with font package name you have given inside this package 
-;; `fastn-community.github.io/inter-typography/FASTN.ftd file
-;; `<font-name>` replace with font you are using. 
-;; remove these comments once you are done.
 
 
 
@@ -217,7 +212,7 @@ e.g. `http://127.0.0.1:8001/types` You will see the `page` component using
 Done! isn't it simple? Try this and don't forget to jump on our [Discord](https://discord.gg/bucrdvptYd)
 
 [Click here](fastn-typography/) to know more `fastn` predefined `inherited`
-types using `<font-name>-font` font-family and font-sizes.
+types using `inter-font` font-family and font-sizes.
 
 -- end: ds.page
 
