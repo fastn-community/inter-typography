@@ -11,9 +11,9 @@ zero for when you need to disambiguate "0" from "o", tabular numbers, et
 
 Designers: Rasmus Andersson, Principal design
 
-## How To Use This Font In Your fastn Package:
+## How To Use This Font Typography In Your fastn Package:
 
-[Read the docs and demo](https://fastn-community.github.io/inter-font/).
+[Read the docs and demo](https://fastn-community.github.io/inter-typography/).
 
 
 ## 👀 Want to learn more?
